@@ -1,0 +1,29 @@
+<feature
+      id="com.redhat.jkang.flightrecorder.ext.diffanalysis"
+      label="%name"
+      version="7.0.0.qualifier"
+      provider-name="%provider"
+      license-feature="org.openjdk.jmc.feature.license"
+      license-feature-version="7.0.0.qualifier">
+
+   <description url="%descriptionUrl">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <requires>
+      <import feature="org.openjdk.jmc.feature.core" match="equivalent"/>
+      <import feature="org.openjdk.jmc.feature.flightrecorder" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="com.redhat.jkang.flightrecorder.ext.diffanalysis"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="true"/>
+</feature>
+

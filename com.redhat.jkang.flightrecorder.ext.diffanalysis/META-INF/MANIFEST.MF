@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Differential Analysis View
+Bundle-SymbolicName: com.redhat.jkang.flightrecorder.ext.diffanalysis;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.openjdk.jmc.flightrecorder;bundle-version="7.0.0",
+ org.openjdk.jmc.flightrecorder.ui;bundle-version="7.0.0"
+Automatic-Module-Name: com.redhat.jkang.flightrecorder.ext.diffanalysis
+Bundle-Vendor: Jie Kang
+
